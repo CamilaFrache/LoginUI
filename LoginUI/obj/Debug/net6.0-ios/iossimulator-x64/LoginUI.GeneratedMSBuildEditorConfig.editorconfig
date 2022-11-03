@@ -1,0 +1,76 @@
+is_global = true
+build_property.TargetFramework = net6.0-ios
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = LoginUI
+build_property.ProjectDir = C:\Users\USUARIO\source\repos\LoginUI\LoginUI\
+
+[C:/Users/USUARIO/source/repos/LoginUI/LoginUI/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LoginUI.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/USUARIO/source/repos/LoginUI/LoginUI/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LoginUI.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/USUARIO/source/repos/LoginUI/LoginUI/Controls/FlyoutHeaderControl.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LoginUI.Controls.FlyoutHeaderControl.xaml
+build_metadata.AdditionalFiles.TargetPath = Controls\FlyoutHeaderControl.xaml
+build_metadata.AdditionalFiles.RelativePath = Controls\FlyoutHeaderControl.xaml
+
+[C:/Users/USUARIO/source/repos/LoginUI/LoginUI/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LoginUI.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/USUARIO/source/repos/LoginUI/LoginUI/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LoginUI.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/USUARIO/source/repos/LoginUI/LoginUI/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LoginUI.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/USUARIO/source/repos/LoginUI/LoginUI/View/Dashboard/DashboardPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LoginUI.View.Dashboard.DashboardPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\Dashboard\DashboardPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\Dashboard\DashboardPage.xaml
+
+[C:/Users/USUARIO/source/repos/LoginUI/LoginUI/View/Dashboard/ReaderDashboardPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LoginUI.View.Dashboard.ReaderDashboardPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\Dashboard\ReaderDashboardPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\Dashboard\ReaderDashboardPage.xaml
+
+[C:/Users/USUARIO/source/repos/LoginUI/LoginUI/View/Dashboard/WriterDashboardPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LoginUI.View.Dashboard.WriterDashboardPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\Dashboard\WriterDashboardPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\Dashboard\WriterDashboardPage.xaml
+
+[C:/Users/USUARIO/source/repos/LoginUI/LoginUI/View/Startup/LoadingPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LoginUI.View.Startup.LoadingPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\Startup\LoadingPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\Startup\LoadingPage.xaml
+
+[C:/Users/USUARIO/source/repos/LoginUI/LoginUI/View/Startup/LoginPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LoginUI.View.Startup.LoginPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\Startup\LoginPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\Startup\LoginPage.xaml

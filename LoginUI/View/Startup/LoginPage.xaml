@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Shell.NavBarIsVisible="False"
+             Shell.FlyoutItemIsVisible="False"
+             BackgroundColor="White"
+             x:Class="LoginUI.View.Startup.LoginPage" >
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+            <Image 
+                Source="company_logo.jpg" 
+                HeightRequest="150" 
+                WidthRequest="150" />
+
+            <VerticalStackLayout Spacing="5">
+
+                <Label
+                    Text="Bienvenida/o"
+                    FontSize="28"
+                    TextColor="Gray"
+                    HorizontalTextAlignment="Center" />
+
+                <Label
+                    Text="Ingrese a su cuenta"
+                    FontSize="18"
+                    TextColor="Gray"
+                    HorizontalTextAlignment="Center" />
+
+                <StackLayout Orientation="Horizontal" >
+                    <Frame  ZIndex="1" HasShadow="True" BorderColor="White" BackgroundColor="White" HeightRequest="56" WidthRequest="56" CornerRadius="28">
+                        <Image
+                            Source="user.png"
+                            HeightRequest="20"
+                            WidthRequest="20" />
+                    </Frame>
+
+                    <Frame HeightRequest="45" Margin="-20,0,0,0" Padding="0" HasShadow="True" BackgroundColor="White" BorderColor="White" HorizontalOptions="FillAndExpand">
+                        <Entry
+                            Margin="20,0,0,0" 
+                            VerticalOptions="Center"
+                            TextColor="Gray"
+                            Placeholder="Nombre de Usuario" 
+                            Keyboard="Email"
+                            Text="{Binding Email}"  />
+                    </Frame>
+
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+                    <Frame  ZIndex="2" HasShadow="True" BorderColor="White" BackgroundColor="White" HeightRequest="56" WidthRequest="56" CornerRadius="28">
+                        <Image
+                            Source="lock.png"
+                            HeightRequest="20"
+                            WidthRequest="20" />
+                    </Frame>
+
+                    <Frame HeightRequest="45" Margin="-20,0,0,0" Padding="0" HasShadow="True" BackgroundColor="White" BorderColor="White" HorizontalOptions="FillAndExpand">
+                        <Entry
+                            Margin="20,0,0,0" 
+                            VerticalOptions="Center"
+                            Placeholder="Contraseña" 
+                            TextColor="Gray"
+                            IsPassword="True"
+                            Text="{Binding Password}" />
+                    </Frame>
+
+                </StackLayout>
+
+                <Button
+                    Text="Ingresar"
+                    WidthRequest="100"
+                    HorizontalOptions="Center"
+                    CornerRadius="20"
+                    BackgroundColor="Black"
+                    Command="{Binding LoginCommand}" />
+
+                <StackLayout Orientation="Horizontal" Spacing="5" HorizontalOptions="Center">
+                    <Label
+                        Text="No tiene cuenta?"
+                        TextColor="Gray" />
+
+                    <Label
+                        Text="Registrese Ahora"
+                        TextColor="Blue" />
+                </StackLayout>
+
+            </VerticalStackLayout>
+
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

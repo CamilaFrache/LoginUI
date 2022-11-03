@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="LoginUI.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:LoginUI"
+    xmlns:DashboardPages="clr-namespace:LoginUI.View.Dashboard"
+    xmlns:StartupPages="clr-namespace:LoginUI.View.Startup"
+    FlyoutBackgroundColor="DarkRed">
+
+    <ShellContent
+        Title="Login Page"
+        FlyoutItemIsVisible="False"
+        Shell.FlyoutBehavior="Disabled"
+        ContentTemplate="{DataTemplate StartupPages:LoginPage}"
+        Route="LoginPage" />
+
+    <ShellContent
+        Title="Loading Page"
+        FlyoutItemIsVisible="False"
+        Shell.FlyoutBehavior="Disabled"
+        ContentTemplate="{DataTemplate StartupPages:LoadingPage}"
+        Route="LoadingPage" />
+
+
+    <FlyoutItem Title="Home" Icon="home.png">
+
+        <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate DashboardPages:DashboardPage}"
+        Route="DashboardPage" />
+
+    </FlyoutItem>
+
+    <FlyoutItem Title="Library" Icon="library.png">
+
+        <ShellContent
+        Title="Library"
+       
+        Route="" />
+
+
+    </FlyoutItem>
+
+    <FlyoutItem Title="Reading" Icon="reading.png">
+
+        <ShellContent
+        Title="Reading"
+        
+        Route="" />
+
+    </FlyoutItem>
+
+    <Shell.FlyoutFooter>
+        <StackLayout Padding="20">
+            
+            <Button 
+                Text="Cerrar Sesión"
+                Command="{Binding SignOutCommand}" />
+
+        </StackLayout>
+
+    </Shell.FlyoutFooter>
+    
+</Shell>
